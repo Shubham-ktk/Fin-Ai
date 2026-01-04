@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+*.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Firebase service account (keep out of repo)
+backend/firebase-key.json
+
+# Environment / secrets
+.env
+*.secret
+*.key
+
+# Logs
+*.log
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build
+dist/
+build/
